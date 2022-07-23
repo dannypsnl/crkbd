@@ -3,6 +3,11 @@
 #include <stdio.h>
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  // KC_SLSH: /
+  // KC_SCLN: ;
+  // KC_QUOT: '
+  // KC_LGUI: Cmd/Win
+  // KC_RALT: Opt/Alt
   // base layer
   [0] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
